@@ -1,0 +1,19 @@
+/* ================================= 
+  Flexbox
+==================================== */
+.container {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center; */
+  min-height: 50vh;
+  /* align-items: center; */
+}
+
+.item {
+  margin: auto;
+}
+
+.item-5 {
+  /* flex-grow: 2; */
+  flex-basis: 200px;
+}
